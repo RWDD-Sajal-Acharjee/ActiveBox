@@ -346,6 +346,19 @@ nav .navbar .logo a img{
     width: 270px;
 }
 
+#team .teamMembers .member .image{
+    overflow: hidden;
+}
+
+#team .teamMembers .member img:hover{
+    transform: scale(1.2);
+    transition: all linear .4s;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
 #team .teamMembers .member h2{
     font-size: 22px;
     color: var(--headingcol);
@@ -391,6 +404,44 @@ nav .navbar .logo a img{
 ============================= */
 
 /* ==========================
+    Portfolio section start
+============================= */
+#portfolio{
+    height: 500px;
+    background: #53354a;
+}
+#portfolio .portfolioContent .portfolioImage{
+    width: 50%;
+    height: 500px;
+    background: #53354a;
+}
+
+#portfolio .portfolioContent .portfolioImage img{
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio .portfolioContent .portfolioText{
+    width: 500px;
+    margin-left: 84px;
+}
+
+#portfolio .portfolioContent .portfolioText p{
+    line-height: 42px;
+    font-size: 35.9px;
+}
+
+#portfolio .portfolioContent .portfolioText h2{
+    line-height: 21px;
+    font-size: 13px;
+    padding-top: 58px;
+}
+/* ==========================
+    End of portfolio section
+============================= */
+
+
+/* ==========================
     Download section start
 ============================= */
 
@@ -434,6 +485,53 @@ nav .navbar .logo a img{
     -ms-transform: scale(1.01);
     -o-transform: scale(1.01);
 }
+
 /* ==========================
     End of Download section
+============================= */
+
+
+
+/* ==========================
+   Footer section start
+============================= */
+
+#footer{
+    height: 342px;
+    background: rebeccapurple;
+}
+
+#footer .footerTop{
+    background: #3a3e64;
+    height: 250px;
+}
+
+#footer .footerTop .footerTopContent{
+    padding-top: 70px;
+}
+
+#footer .footerTop .footerTopContent .location{
+    width: 230px;
+    background: red;
+    
+}
+
+#footer .footerTop .footerTopContent .sharewithLove{
+    width: 230px;
+    background: rgb(145, 255, 0);
+}
+
+#footer .footerTop .footerTopContent .about{
+    width: 370px;
+    background: rgb(0, 255, 191);
+}
+
+#footer .footerBottom{
+    background: #313454;
+    height: 92px;
+}
+
+
+/* ==========================
+    End of Footer section
 ============================= */
