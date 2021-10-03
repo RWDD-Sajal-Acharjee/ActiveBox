@@ -191,7 +191,7 @@ nav .navbar .logo a img{
     line-height: 71px;
     padding: 0 50px 20px 50px;
     background: linear-gradient(to right, #dd6565, #d2fad2);
-    background-clip: text;  /*allows the text to be colored by backround*/
+    -webkit-background-clip: text;  /*allows the text to be colored by backround*/
     color: transparent;
 }
 
@@ -327,6 +327,67 @@ nav .navbar .logo a img{
 
 /* ==========================
     End of Gallery section
+============================= */
+
+/* ==========================
+    Team section start
+============================= */
+
+#team{
+    height: 780px;
+}
+
+#team .teamMembers{
+    height: 581px;
+}
+
+#team .teamMembers .member{
+    height: 100%;
+    width: 270px;
+}
+
+#team .teamMembers .member h2{
+    font-size: 22px;
+    color: var(--headingcol);
+    padding: 30px 0 10px 0;
+}
+
+#team .teamMembers .member h3{
+    font-size: 13px;
+    color: var(--brandingcolor);
+}
+
+#team .teamMembers .member p{
+    font-size: 14px;
+    color: (--paragraphcol);
+    line-height: 21px;
+    padding: 25px 3px 25px 0;
+}
+
+#team .teamMembers .member ul li{
+    padding: 10px;
+    border: 1px solid var(--paragraphcol);
+    margin-right: 4px;
+
+}
+
+#team .teamMembers .member ul li a{
+    color: var(--paragraphcol);
+}
+
+#team .teamMembers .member ul li:hover{
+    border: 1px solid var(--brandingcolor);
+}
+
+#team .teamMembers .member ul li:hover a{
+    color: var(--brandingcolor);
+}
+
+#team .teamMembers .member ul li:last-child{
+    margin-left: 0;
+}
+/* ==========================
+    End of team section
 ============================= */
 
 /* ==========================
